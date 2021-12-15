@@ -1,0 +1,69 @@
+html{	
+	font-size: 50px;
+}
+body{
+
+	
+	background-color: green;
+	  background-image: radial-gradient(#212121 20%, #e53935 20%);
+  background-position: 0 0;
+  background-size: 100px 100px;
+  height: 200px;
+  width: 100%;
+}
+.tiger{
+	margin-left: 30px;
+	width: 500px;
+	float: left;
+	height: 500px;
+}
+.tiger1{
+	width: 500px;
+	float:right;
+	height: 500px;
+
+	
+}
+.water{
+	margin-right: 100px;
+	width: 500px;
+	float :right;
+	height: 500px;
+}
+
+div{
+	clear: both;
+}
+h1{
+	background-color: red;
+}
+.f{
+	background-color: yellow;
+	height: 300px;
+	width: 300px;
+	float: left
+
+}
+.game{
+	
+	height:300px;
+	width: 300px;
+	float: left;
+}
+.movie{
+
+	height:300px;
+	width: 300px;
+	float: left;
+}
+p{
+	background-color: orange;
+}
+
+ul{
+	background-color: orange;
+
+}
+li{
+	list-style: circle;
+}
