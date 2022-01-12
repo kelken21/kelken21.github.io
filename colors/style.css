@@ -1,0 +1,54 @@
+p{
+	margin: 30px;
+	padding: 80px;
+	text-align: center;	
+	color: 	white;
+
+
+}
+
+h1{
+	text-align: center;	
+	border: dotted 5px;	
+	color: 	white;
+	background-color: black;
+}
+
+.one{
+	background-color: #802264;
+}
+.two{
+	background-color: #229203;
+}
+
+.three{
+	background-color: rgb(119, 119, 119);
+}
+
+.four{
+	background-color: #4287f5;
+}
+
+.five{
+	background-color: #eb4034;
+}
+
+.six{
+	background-color: rgb(	67, 52, 235);
+
+}
+.seven{
+	background-color: #eb34d3;
+}
+
+.eight{
+	background-color: rgb(235, 214, 52	);
+}
+
+.nine{
+	background-color: #ebd634;
+}
+
+.ten{
+	background-color: #eb9f34;
+}
