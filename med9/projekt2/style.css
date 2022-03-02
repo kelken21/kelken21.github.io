@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans+Thai+Looped:wght@500&display=swap');
+
+.cit{
+	height: 150px ;
+	width: 120 ; 
+	text-align: center;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.a{
+	border: 5px dotted ;
+	font-size: 20px ;
+}
+
+h1{
+	text-align: center;
+	   }	
+
+h2{
+	text-align: center;
+	font-family: Dancing Script;
+	font-size: 15px;
+}
+
+#b{
+	border: 5px dotted ;
+	font-size: 30px;
+	background: radial-gradient(circle, rgba(196,234,212,1) 7%, rgba(0,9,255,1) 99%);
+	margin-top: 30px;
+	padding: 90px;
+
+}
+
+.k{
+	background-color:  white;
+    text-align: center; 
+   
+ }
+
+.c{
+	border: 5px dotted ;
+	margin-top: 30px;
+	background: radial-gradient(circle, rgba(0,9,255,1) 0%, rgba(196,234,212,1) 0%);
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 300px;
+}
+.w{
+	float: left;
+	background-color: white;
+	display: flex;
+	align-items: stretch;
+  }
+
+.per{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  	height: 150px ;
+	width: 120 ; 
+}
+
+#d{
+	border: dotted;
+	display: flex;
+	margin-top: 30px;
+	justify-content: middle;
+	background-color: blue;
+
+}
+.r{
+	background-color: white;
+}
+
+.qqwq{
+	border: dotted ;
+	display: flex ; 
+		background-color: blue ;
+
+}
