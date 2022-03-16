@@ -1,0 +1,117 @@
+/*
+*
+* Title:Basic structure of a page
+* Author: Kelvin Kenaj
+* Date:2022-03-16
+*
+*/
+
+
+/**********General Styling ************************/
+
+
+
+
+body{
+	margin: 0;
+	
+   }
+
+
+
+
+
+/* Navigation */   
+nav{  
+	background-color: dodgerblue;
+	display: flex; /* We need flex box nbecause we want a great thinks */
+	justify-content: space-between;
+	align-content: center;
+	padding: 30px;
+}
+
+
+nav img{
+	height: 80px;
+	border-radius: 	50%; /* to make round corners */
+}
+
+nav ul{
+	list-style: none; /* To remove the bullet */
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+
+/* Header */
+header{
+	height:400px;
+	display: flex;	
+	justify-content: center;	
+	align-items: center;	
+	background-image: url("kkk.jpg");
+	background-position:  center;	
+	background-size: cover;		
+}
+
+
+header h1{
+	font-size: 20px;
+	background-color: rgba(255,255,255, 0.7);
+	padding: 20px;
+}
+
+
+
+/* Main */
+main{
+	padding:500px;
+	background: radial-gradient(circle, rgba(232,16,16,1) 100%, rgba(252,70,107,1) 100%);
+	color: white
+
+}
+
+main h2{
+	font-size: 20px;
+	color: darkblue;
+}
+
+
+
+/* Footer */
+footer{
+	display: flex;	
+	justify-content: space-evenly;
+	align-items: center;	
+	padding: 30px;
+	background-color: lightsteelblue;
+}
+
+
+
+
+
+
+footer p{
+	font-size: 	20px;
+	background-color: white;
+	color: 	darkblue;
+	padding: 15px;
+}
+
+
