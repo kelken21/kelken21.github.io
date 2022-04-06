@@ -1,0 +1,308 @@
+/*
+*title:Basic structure of a page
+*authur:Kelvin Kenaj
+*Date:2022-03-16
+
+
+
+
+*/
+
+
+
+/*******************general styling ************/
+
+
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+	
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:ital@1&family=Roboto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+margin: 0;
+font-family: Anton;
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(17,71,180,1) 100%);
+}
+
+
+
+
+/* Navigation */
+nav{
+background-color: green;
+padding: 30px; /* We need flexbox because we want space betwen the img to the list */
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: 100%;
+box-sizing:border-box;
+}
+
+
+
+
+
+nav img{
+height: 70px;
+width: 140px;
+border-radius: 50%;
+}
+
+
+
+
+
+nav ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type:none;
+font-family: Roboto Serif;
+}
+nav ul li a{
+margin: 30px;
+padding:20px;
+text-decoration: none;
+color: #003399;
+background-color:#ffcc00;
+border-radius: 10px;
+}
+
+
+
+
+
+nav ul li a:hover{
+background-color: red;
+}
+
+
+
+
+header{
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-position: center;
+background-size: cover;
+font-family: Eagle Lake;
+background-image:url(ere.jpg);
+}
+
+
+
+
+
+header h1{
+font-size: 30px;
+background-color: red;
+padding: 20px;
+color:darkorange;
+border-radius: 200px;
+}
+/*Footer*/
+footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 30px;
+background-color: orange;
+border-radius: 25px;
+font-family: Eagle Lake;
+color: yellow;
+
+}
+
+
+
+section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: Roboto Serif;
+
+
+
+}
+
+
+
+section .left{
+width: 60%;
+background-color: blue;
+padding: 30px;
+
+
+
+
+}
+section .right{
+width: 40%;
+background-color: dodgerblue;
+padding: 30px;
+}
+
+
+
+
+main {
+padding: 200px;
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(17,71,180,1) 100%);
+}
+main h2 {
+font-size: 20px;
+color: darkblue;
+
+
+
+}
+
+
+
+/********* home page styling*************/
+
+
+
+#home header {
+
+
+
+background-image: url("orangegradient.jpg");
+}
+
+
+
+#home #pictures {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+#home #pictures img{
+width: 200px;
+padding: 10px;
+border: solid blue;
+margin: 10px;
+
+
+
+
+}
+
+
+
+/********* info page styling*************/
+
+
+
+
+
+#info header {
+
+
+
+background-image: url("walk.jpg");
+}
+
+
+
+#info main {
+
+
+
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(17,71,180,1) 100%);
+
+
+
+}
+
+
+
+
+
+footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 30px;
+background-color: orange;
+border-radius: 25px;
+font-family: Eagle Lake;
+color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+/********contact page styling*******/
+#contact header {
+
+
+
+background-image: url("contact.jpg");
+}
+
+
+
+#contact main{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 60px;
+
+
+
+}
+
+
+
+#contact main ul {
+color: red;
+
+}
+
+
+header h1{
+	color: white;
+}
+
+section{
+	padding: 100px;
+}
+
+
+
+ #link1{
+	background-color: lightsteelblue;
+	padding: 250px;
+}
+
+#link2{
+	background-color: blue;
+	padding: 250px;
+}
+
+#link3{
+	background-color: lightgreen;
+	padding: 250px;
+}
