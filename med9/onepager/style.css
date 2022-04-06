@@ -15,11 +15,11 @@
 
 
 :root{
-
-
-
-scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
+
+
+	
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:ital@1&family=Roboto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
@@ -294,15 +294,15 @@ section{
 
  #link1{
 	background-color: lightsteelblue;
-	padding: 150px;
+	padding: 250px;
 }
 
 #link2{
 	background-color: blue;
-	padding: 150px;
+	padding: 250px;
 }
 
 #link3{
 	background-color: lightgreen;
-	padding: 150px;
+	padding: 250px;
 }
