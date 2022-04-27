@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+article{
+display: flex;
+justify-content: space-between;
+}
+article .image {
+height: 250px;
+width: 300px;
+background-image: url("love saranda.jpg");
+background-size: cover;
+background-position: center;
+padding: 20px;
+}
+article .text {
+height: 250px;
+width: 300px;
+background:radial-gradient(circle, rgba(51,138,229,1) 87%, rgba(29,70,255,1) 100%);
+padding: 20px;
+}
+p{
+font-size: 20px;
+color: white;
+background-color: darkblue;
+position: relative;
+top: 20px;
+left: -40px;
+z-index: 15;
+padding: 10px;
+font-family: "Roboto";
+}
+h1{
+font-size: 50px;
+color: darkblue;
+background-color: white;
+position: relative;
+top: -35px;
+left: 10px;
+z-index: 0;
+padding: 10px;
+font-family: "Lato";
+}
